@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App Development</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="mobile_app_dev.css">
+</head>
+<body>
+    
+    <header class="header">
+        <section class="flex">
+            <a href="/index.html" class="logo">StudySavvy</a>
+
+            <h1>Mobile App Development</h1>
+        </section>
+    </header>
+
+    <section class="Mobile">
+        <div class="row">
+            <div class="content">
+                <h1 id="mobDev">What is Mobile App Development?</h1>
+                <br>
+                <p>
+                    Mobile application development is the process to making software for smartphones and digital assistants, most commonly for Android and iOS. The software can be preinstalled on the device, downloaded from a mobile app store or accessed through a mobile web browser. The programming and markup languages used for this kind of software development include Java, Swift, C# and HTML5.
+                    <br><br>
+
+                <div class="box">
+
+                    <div class="row1">
+                        <h1>1. Andriod Programming Languages</h1>
+                        <br><br>
+                        <p>
+                            In Android, basically, programming is done in two languages JAVA or C++ and XML(Extension Markup Language). Nowadays KOTLIN is also preferred. The XML file deals with the design, presentation, layouts, blueprint, etc (as a front-end) while the JAVA or KOTLIN deals with the working of buttons, variables, storing, etc (as a back-end).
+                        </p>
+                        <br><br>
+
+                        <h1>2. Android Components</h1>
+                        <br><br>
+                        <p>
+                            The App components are the building blocks of Android. Each component has its own role and life cycles i.e from launching of an app till the end. Some of these components depend upon others also. Each component has a definite purpose. The four major app components are: 
+
+                            <ul>
+                                <li>Activities</li>
+                                <li>Services</li>
+                                <li>Broadcast Receivers</li>
+                                <li>Content Receivers</li>
+                            </ul>
+                        </p>
+                        <br><br>
+                    </div>
+
+                    <div class="image">
+                        <img src="images/book.png" alt="">
+                    </div>
+
+                </div>
+                <div class="iframe">
+                    <p>
+                        <span>Activities</span>: It deals with the UI and the user interactions to the screen. In other words, it is a User Interface that contains activities. These can be one or more depending upon the App. It starts when the application is launched. At least one activity is always present which is known as MainActivity. The activity is implemented through the following. <br><br> 
+    
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=seti&wt=none&l=text%2Fx-kotlin&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=67px&ph=58px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=public%2520class%2520MainActivity%2520extends%2520Activity%257B%250A%2520%2520%252F%252F%2520processes%250A%257D"
+                            style="width: 517px; height: 264px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </p>
+                </div>
+                <br><br>
+                <div class="iframe">
+                    <p>
+                        <span>Services</span>: Services are the background actions performed by the app, these might be long-running operations like a user playing music while surfing the Internet. A service might need other sub-services so as to perform specific tasks. The main purpose of the Services is to provide non-stop working of the app without breaking any interaction with the user.  <br><br> 
+    
+                        <span class="syntax">Syntax:</span>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=seti&wt=none&l=text%2Fx-kotlin&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=67px&ph=58px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=public%2520class%2520MyServices%2520extends%2520Services%257B%250A%2520%2520%252F%252F%2520code%2520for%2520the%2520services%250A%257D"
+                            style="width: 483px; height: 263px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </p>
+                </div>
+                <br><br>
+                <div class="iframe">
+                    <p>
+                        <span>Broadcast Receivers</span>: A Broadcast is used to respond to messages from other applications or from the System. For example, when the battery of the phone is low, then the Android OS fires a Broadcasting message to launch the Battery Saver function or app, after receiving the message the appropriate action is taken by the app. Broadcast Receiver is the subclass of BroadcastReceiver class and each object is represented by Intent objects. <br><br> 
+    
+                        <span class="syntax">Syntax:</span>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=seti&wt=none&l=text%2Fx-kotlin&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=public%2520class%2520MyReceiver%2520extends%2520BroadcastReceiver%257B%250A%2520%2520%2520public%2520void%2520onReceive%28context%252Cintent%29%257B%250A%2520%257D"
+                            style="width: 555px; height: 225px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </p>
+                </div>
+                <br><br><br>
+                <div class="iframe">
+                    <p>
+                        <span>Content Provider</span>: Content Provider is used to transferring the data from one application to the others at the request of the other application. These are handled by the class ContentResolver class. This class implements a set of APIs(Application Programming Interface) that enables the other applications to perform the transactions. Any Content Provider must implement the Parent Class of ContentProvider class. <br><br>
+    
+                        <span class="syntax">Syntax:</span>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=seti&wt=none&l=text%2Fx-kotlin&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=public%2520class%2520MyContentProvider%2520extends%2520ContentProvider%257B%250A%2520%2520%2520public%2520void%2520onCreate%28%29%250A%2520%2520%2520%257B%257D%250A%257D"
+                        style="width: 597px; height: 243px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </p>
+                </div>
+                <br><br>
+                <div class="row2">
+                    <h1>3. Structural Layout of Android Studio</h1>
+                    <br><br>
+                    <p>
+                        The basic structural layout of Android Studio is given below:
+
+                        <img src="images/AndStudio.png" alt="">
+                        <br>
+                        The above figure represents the various structure of an app. <br><br>
+                        <span>Manifest Folder:</span> Android Manifest is an XML file that is the root of the project source set. It describes the essential information about the app and the Android build tools, the Android Operating System, and Google Play. It contains the permission that an app might need in order to perform a specific task. It also contains the Hardware and the Software features of the app, which determines the compatibility of an app on the Play Store. It also includes special activities like services, broadcast receiver, content providers, package name, etc.
+                        <br><br>
+                        <span>Java Folder: </span>The <b>JAVA folder</b> consists of the java files that are required to perform the background task of the app. It consists of the functionality of the buttons, calculation, storing, variables, toast(small popup message), programming function, etc. The number of these files depends upon the type of activities created.
+                        <br><br>
+                        <span>Gradle Files: </span>Gradle is an advanced toolkit, which is used to manage the build process, that allows defining the flexible custom build configurations. Each build configuration can define its own set of code and resources while reusing the parts common to all versions of your app. The Android plugin for Gradle works with the build toolkit to provide processes and configurable settings that are specific to building and testing Android applications. Gradle and the Android plugin run independently of Android Studio. This means that you can build your Android apps from within Android Studio. The flexibility of the Android build system enables you to perform custom build configurations without modifying your app’s core source files. 
+                        <br><br>
+                        <b>Basic Layout Can be defined in a tree structure as: </b>
+                        <br><br>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C74%2C74%2C1%29&t=seti&wt=none&l=text%2Fx-kotlin&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=Project%252F%250A%2520%2520%2520app%252F%250A%2520%2520%2520%2520%2520%2520manifest%252F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520AndroidManifest.xml%250A%2520%2520%2520java%252F%250A%2520%2520%2520%2520%2520%2520MyActivity.java%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520res%252F%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520drawable%252F%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520icon.png%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520background.png%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520drawable-hdpi%252F%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520icon.png%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520background.png%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520layout%252F%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520activity_main.xml%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520info.xml%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520values%252F%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520strings.xml%2520eturn%2520res%2520%253F%2520go%28f%252C%2520res%255B1%255D%252C%2520acc.concat%28%255Bres%255B0%255D%255D%29%29%2520%253A%2520acc%250A%2520%2520%257D%250A%2520%2520return%2520go%28f%252C%2520seed%252C%2520%255B%255D%29%250A%257D"
+                        style="width: 711px; height: 578px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    </p>
+                    <br><br>
+
+                    <h1>4. Lifecycle of Acivity in Android App</h1>
+                    <br><br>
+                    <p>
+                        The Lifecycle of Activity in Android App can be shown through this diagram:  
+                    </p>
+                    <br>
+                    <img src="images/appLifecycle.png" alt="">
+                    <br><br>
+                    <p>
+                        <span>States of Android Lifecycle:</span>
+                        <br>
+                        <ol>
+                            <li><b>OnCreate:</b> This is called when activity is first created.</li>
+                            <li><b>OnStart:</b> This is called when the activity becomes visible to the user.</li>
+                            <li><b>OnResume:</b> This is called when the activity starts to interact with the user.</li>
+                            <li><b>OnPause:</b> This is called when activity is not visible to the user.</li>
+                            <li><b>OnStop:</b> This is called when activity is no longer visible.</li>
+                            <li><b>OnRestart:</b> This is called when activity is stopped, and restarted again.</li>
+                        </ol>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+
+    <footer class="footer">
+        <section>
+            <div class="share">
+                <a href="" class="fab fa-twitter"></a>
+                <a href="" class="fab fa-linkedin"></a>
+                <a href="" class="fab fa-youtube"></a>
+            </div>
+
+            <div class="credit">
+                &copy; copyright @ 2023 by <span>Adarsh and friends</span> | All rights reserved! 
+            </div>
+        </section>
+    </footer>
+
+</body>
+</html>
