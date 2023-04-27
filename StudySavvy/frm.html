@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="connection.php" method="post">
+        <span>your name</span>
+        <input type="text" name="name" required placeholder="Enter your full name" class="box" maxlength="255">
+        <span>your email</span>
+        <input type="email" required placeholder="enter your valid email address" class="box" maxlength="255"
+            name="email">
+        <span>your number</span>
+        <input type="number" required placeholder="enter you valid phone number" name="number" max="9999999999"
+            min="0" class="box" onkeypress="if(this.value.length == 10) return false;">
+        <span>select course</span>
+        <select name="course" class="box" required>
+            <option value="" disabled selected>select the course --</option>
+            <option value="Web Development">Web Development</option>
+            <option value="Software Programming">Software Programming</option>
+            <option value="Computer Hardware Engineering and Networking">Computer Hardware Engineering and
+                Networking</option>
+            <option value="Ethical Hacking">Ethical Hacking</option>
+            <option value="Cyber Security">Cyber Security</option>
+            <option value="Data Analytics">Data Analytics</option>
+            <option value="Big Data Analytics">Big Data Analytics</option>
+            <option value="Mobile App Development">Mobile App Development</option>
+            <option value="Artificial Intelligence and Machine Learning">Artificial Intelligence and Machine
+                Learning</option>
+        </select>
+        <input type="submit" value="send message" class="btn" name="send">
+    </form>
+</body>
+</html>
